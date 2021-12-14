@@ -15,7 +15,7 @@ Route::get('/create', function () {
 Route::resource('contacts', 'ContactController::class');
 Route::get('/contact', ['ContactController::class', 'index'])
 
-
+//Comment
 Route::get('/create', ['ContactController::class', 'index'])
 
 */
